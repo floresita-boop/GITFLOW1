@@ -33,7 +33,7 @@ if (health.status=== 'ok'){
   console.log('Test healthCheck pasado');
   pasadas++;
 }else {
-  console.log('Test  healthCheck fallido', health);
+  console.log('Test  healthCheck fallido', health),;
   fallidas++;
 
 }
