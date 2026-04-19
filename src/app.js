@@ -20,5 +20,5 @@ export function healthCheck(){
     timestamp: new Date().toISOString(),
     servicio: 'StreamFlow API',
     version: '1.0.0'
-  }
+  };
 }
