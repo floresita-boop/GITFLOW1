@@ -38,11 +38,11 @@ if (health.status=== 'ok'){
 
 }
 const f = factorial(5);
-
 if (f === 120) {
     console.log("Test Factorial pasado");
     pasadas++;
 } else {
+    console.log("Test fallido");
     console.log("Test Factorial fallido");
     fallidas++;
 }
