@@ -43,6 +43,7 @@ if (f === 120) {
     pasadas++;
 } else {
     console.log("Test fallido");
+    console.log("Test Factorial fallido");
     fallidas++;
 }
 console.log ("\nResultados: " + pasadas + " pasadas, " + fallidas + "fallidas");
